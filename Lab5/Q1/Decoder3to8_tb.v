@@ -4,7 +4,7 @@
 module decoder3to8_tb();
 reg [2:0]W;
 reg En;
-wire [7:0]Y;
+wire [0:7]Y;
 
 decoder3to8 Decoder3to8(W, Y);
 initial
