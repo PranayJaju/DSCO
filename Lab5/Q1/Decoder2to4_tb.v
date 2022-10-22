@@ -4,7 +4,7 @@
 module decoder2to4_tb();
 reg [1:0]A;
 reg En;
-wire [3:0]D;
+wire [0:3]D;
 
 decoder2to4 Decoder2to4(A, En, D);
 initial
